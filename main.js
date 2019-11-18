@@ -5,8 +5,8 @@ var cognome = prompt('Ciao, per favore digita il tuo cognome'); //chiedo il cogn
 console.log(cognome);
 var lista = ['pippo', 'pluto', 'martufello', 'paperino', 'topolino', 'minnie']; //definisco la lista
 console.log(lista);
-lista.push(cognome); //inserisco il cognome digitato nella lista
+lista.push(cognome); //inserisco il cognome digitato dall'utente nella lista
 lista.sort(); //stampo la lista in ordine alfabetico
 console.log(lista);
-var posizione = lista.indexOf(cognome) +1;
+var posizione = lista.indexOf(cognome) +1; // stampo la posizione in cui si trova il cognome
 console.log(posizione);
