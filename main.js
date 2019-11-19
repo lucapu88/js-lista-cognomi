@@ -3,6 +3,9 @@
 
 var cognome = prompt('Ciao, per favore digita il tuo cognome'); //chiedo il cognome all'utente
 console.log(cognome);
+var iniziale = (cognome.charAt(0)).toUpperCase(); //trasformo l'iniziale in maiuscolo
+var resto = cognome.slice(1).toLowerCase();
+cognome = iniziale + resto; //unisco lettera maiuscola con il resto del cognome
 var lista = ['pippo', 'pluto', 'martufello', 'paperino', 'topolino', 'minnie']; //definisco la lista
 console.log(lista);
 lista.push(cognome); //inserisco il cognome digitato dall'utente nella lista
